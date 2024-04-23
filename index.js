@@ -28,7 +28,7 @@ if (currentLetterIndex === currentSentence.length) {
     return;
 }
 
-setTimeout(displayLetterByLetter, 150); // Speed of displaying letters
+setTimeout(displayLetterByLetter, 160); // Speed of displaying letters
 }
 
 // Function to reverse back to the first letter of the sentence
@@ -43,7 +43,7 @@ sentenceDisplay.textContent = partialSentence;
 
 currentLetterIndex--;
 
-setTimeout(() => reverseToFirstLetter(sentence), 30); // Speed of reversing letters
+setTimeout(() => reverseToFirstLetter(sentence), 80); // Speed of reversing letters
 }
 
 // Function to clear displayed sentence
